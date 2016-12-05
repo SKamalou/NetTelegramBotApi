@@ -11,6 +11,8 @@ namespace NetTelegramBotApi
 
         public T Result { get; set; }
 
+        public T Result2 { get; set; }
+
         public long? ErrorCode { get; set; }
 
         public ResponseParameters Parameters { get; set; }
